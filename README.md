@@ -12,7 +12,7 @@ A fun, interactive Aim Trainer game built with Python and Pygame. Test your mous
 
 ## Screenshots 📸
 |  Game in Progress | Final Result   |
-|------------------|----------------|
+|-------------------|----------------|
 | ![Game_progress](screenshots/Game_progress.png) | ![Result](screenshots/Result.png) |
 
 - Game Screen: Click targets before they shrink to zero!
