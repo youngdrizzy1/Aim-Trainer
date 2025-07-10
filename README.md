@@ -15,50 +15,41 @@ A fun, interactive Aim Trainer game built with Python and Pygame. Test your mous
 |------------------|----------------|
 | ![Game_Progress](screenshots/Game_progress.png) | ![Result](screenshots/Result.png) 
 
-- Initial Screen: Start here by entering a YouTube URL.
-- Video Details: See the thumbnail, title, and stats before downloading.
-- Download Complete: Progress bar full, ready to save or clear!
+- Game Screen: Click targets before they shrink to zero!
+- Game Over Screen: Check your final stats and accuracy.
 
-## How to Use 🎥
-1. Enter a valid YouTube URL in the input field.
-2. Check out the video details (thumbnail, title, channel, etc.).
-3. Hit "Download Video" and watch the progress bar roll.
-4. Once done, click "Save Video to Device" to grab the file.
-5. Use "Clear Download" to reset for the next video.
-Note: Videos over 20 minutes might take a bit longer to download.
-
-## Tech Stack 🛠️
-- **Frontend**: Streamlit
-- **Backend**: Python 3
-- **Key Libraries**: 
-  - `streamlit` for the UI
-  - `pytubefix` for YouTube video downloading
-  - `io.BytesIO`  for file buffering
-  - `time`   for duration formatting
+## How to Play 🎮
+1. Launch the game (see installation below).
+2. Click targets as they appear on-screen.
+3. Each target grows to a max size, then shrinks miss it, and lose a life.
+4. Start with 3 lives; lose them all, and it’s game over!
+5. Watch your stats in the top bar: time, speed, hits, and lives.
 
 ## Installation ⚙️
-1. Clone repository:
+1. Make sure you have Python 3 installed: Download Python
+2. Install Pygame:
 ```bash
-git clone https://github.com/youngdrizzy1/Youtube-Downloader
-cd Youtube-Downloader
+pip install pygame
 ```
 
-2. Install dependencies:
+3. Clone the repo:
 ```bash
-pip install streamlit pytubefix
+git clone https://github.com/youngdrizzy1/aim-trainer
+cd aim-trainer
 ```
 
-3. Run the application:
+4. Run the game:
 ```bash
-streamlit run app.py
+python aim_trainer.py
 ```
 
-## Live Demo 🌐
-Check out the live version: [Youtube-Downloader-App](https://youtube-downloader0.streamlit.app/)
-- Heads Up: The app works perfectly locally but may hit errors on Streamlit Cloud due to pytubefix or cloud restrictions. I’m on it—suggestions welcome!
+## Tech Stack 🛠️
+- Language: Python 3
+- Library: Pygame for game development
 
 ## Known Issues ⚠️
-Runs smoothly on local devices but faces deployment hiccups on Streamlit Cloud. Likely a pytubefix compatibility or network issue—help appreciated!
+- Designed for desktop; not mobile-friendly.
+- Best experience at 800x600 resolution or higher.
 
 ## Connect with Me 👋
 [LinkedIn](https://www.linkedin.com/in/eromosele-itoya/) | 
