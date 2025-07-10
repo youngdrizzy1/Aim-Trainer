@@ -12,8 +12,8 @@ A fun, interactive Aim Trainer game built with Python and Pygame. Test your mous
 
 ## Screenshots 📸
 |  Game in Progress | Final Result   |
-|------------------|----------------|-------------------|
-| ![Game Progress](screenshots/Game_progress.png) | ![Result](screenshots/Result.png) 
+|------------------|----------------|
+| ![Game_Progress](screenshots/Game_progress.png) | ![Result](screenshots/Result.png) 
 
 - Initial Screen: Start here by entering a YouTube URL.
 - Video Details: See the thumbnail, title, and stats before downloading.
